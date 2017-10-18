@@ -90,6 +90,7 @@ public class VectorHelper {
 	}
 
 
+
          public VectorHelper inverser()
 
 	
@@ -103,5 +104,22 @@ public class VectorHelper {
 		return this;
 
 	}       
+	
+	public VectorHelper somme(VectorHelper  v1) /* throws equalException   */         
+	{Integer a=0;VectorHelper v=new VectorHelper(v1.get_taille());
+	if(this.taille==v1.get_taille())
+	{
+		for (int i=0;i<v1.get_taille();i++)
+		{
+			a=this.get_table().get(i)+v1.get_table().get(i);
+			v.ajout_val(a);
+		}
+	}else
+	{
+		//throw new equalException ();
+	}
+		return v;
+	}
 
+}
 
