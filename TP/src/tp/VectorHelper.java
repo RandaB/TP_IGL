@@ -49,7 +49,23 @@ public class VectorHelper {
 	}
 		
 	
-        
+        	
+	public Integer min ()
+	{int z;
+		if (taille>0)
+		{z=val.get(0);
+		for (int i=1;i<taille;i++)
+		{
+			if (val.get(i)<z)
+			{
+				z=val.get(i);
+			}
+			
+		}
+		}else {z=-1;}
+		return z;
+	}
+	
         
         
         
