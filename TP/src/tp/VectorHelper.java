@@ -105,7 +105,7 @@ public class VectorHelper {
 
 	}       
 	
-	public VectorHelper somme(VectorHelper  v1) /* throws equalException   */         
+	public VectorHelper somme(VectorHelper  v1)  throws EqualException          
 	{Integer a=0;VectorHelper v=new VectorHelper(v1.get_taille());
 	if(this.taille==v1.get_taille())
 	{
@@ -116,7 +116,7 @@ public class VectorHelper {
 		}
 	}else
 	{
-		//throw new equalException ();
+		throw new equalException ();
 	}
 		return v;
 	}
