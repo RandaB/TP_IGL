@@ -84,8 +84,10 @@ public class VectorHelper {
 		return z;
 	}
 
-        
-	public VectorHelper inverser()
+
+         public VectorHelper inverser()
+
+	
 	{Integer a;
 		for(int i=0;i<(taille/2);i++)
 		{
@@ -94,8 +96,8 @@ public class VectorHelper {
 			val.set(taille-i, a);
 		}
 		return this;
-	}
-	
-	
+
+	}       
+
     
 }
