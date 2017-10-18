@@ -4,11 +4,16 @@
  * and open the template in the editor.
  */
 package tp;
+
 import java.util.*;
+
 /**
  *
  * @author block
  */
+
+
+
 
 public class VectorHelper {
     	private int taille;
@@ -99,5 +104,4 @@ public class VectorHelper {
 
 	}       
 
-    
-}
+
