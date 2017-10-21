@@ -1,4 +1,4 @@
-/*
+-/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -101,6 +101,10 @@ public class VectorHelper {
 	}
 		
 	
+    /**
+     *Trie le vecteur
+     * 
+     */
              public void trier(){
             int a,i=val.size()-1;
             
@@ -120,7 +124,12 @@ public class VectorHelper {
                 System.out.println(val.get(i));           }
         }	
 	
-	
+	   /**
+     *Retourne le minimum du vecteur
+     * @return
+     *          Le min du vecteur
+     * 
+     */
 	
 	public Integer min ()
 	{int z;
@@ -139,7 +148,12 @@ public class VectorHelper {
 	}
 	
         
-        
+        /**
+     *Retourne le maximum du vecteur
+     * @return
+     * 
+     *          Le max du vecteur
+     */
         	public Integer max ()
 	{int z;
 		if (taille>0)
@@ -158,6 +172,10 @@ public class VectorHelper {
 
 
 
+	
+	 /**
+     *Inverse le vecteur 
+     */
          public VectorHelper inverser()
 
 	
@@ -172,6 +190,14 @@ public class VectorHelper {
 
 	}       
 	
+	
+	 /**
+     *Somme deux vecteurs 
+     * @param v1
+     *          Le vecteur à sommer avec le vecteur de cette classe
+     * @return La somme des deux vecteurs 
+     * @throws EqualException Si les tailles des deux vecteurs sont différentes
+     */
 	public VectorHelper somme(VectorHelper  v1)  throws EqualException          
 	{Integer a=0;VectorHelper v=new VectorHelper(v1.get_taille());
 	if(this.taille==v1.get_taille())
@@ -188,6 +214,12 @@ public class VectorHelper {
 		return v;
 	}
 
+	
+	
+	
+    /**
+     *Applique la formule sur vecteur
+     */
 
 public void formule ()
 	{Integer a;
