@@ -101,7 +101,27 @@ public class VectorHelper {
 	}
 		
 	
-        	
+             public void trier(){
+            int a,i=val.size()-1;
+            
+          while (i>0){
+              for(int j=1;j<i;j++){
+                //  System.out.println(val.get(i)); 
+                  if(val.get(j-1)>val.get(j)){
+                      a=val.get(j-1);
+                      val.set(j-1,val.get(j));
+                      val.set(j,a);
+                       
+                  }
+              }
+              i--;
+            }
+            for( i=0;i<val.size();i++){
+                System.out.println(val.get(i));           }
+        }	
+	
+	
+	
 	public Integer min ()
 	{int z;
 		if (taille>0)
