@@ -10,8 +10,5 @@ package tp;
  * @author block
  */
 public class EqualException extends Exception{
-    public EqualException(){
-        
-    }
     
 }
