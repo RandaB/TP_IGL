@@ -225,8 +225,13 @@ public void formule ()
 	{Integer a;
 		for (int i=0;i<taille;i++)
 		{
-			a=val.get(i)*2;
+			
+			a=val.get(i)*3;
+			
+			
 			val.set(i, a);
+			
+			
 		}
 	}
 }
