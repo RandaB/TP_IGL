@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package tp;
-
+//test
 import java.util.*;
 
 /**
@@ -155,6 +155,77 @@ public void formule ()
 	{Integer a;
 		for (int i=0;i<taille;i++)
 		{
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+			
 			a=val.get(i)*2;
 			val.set(i, a);
 		}
