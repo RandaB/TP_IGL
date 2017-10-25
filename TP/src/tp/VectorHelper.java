@@ -128,6 +128,13 @@ public void formule ()
 		{
 			a=(val.get(i)*2)+1;
 			val.set(i, a);
+			
+			
+			
+			
+			
+			
+			
 		}
 	}
 }
