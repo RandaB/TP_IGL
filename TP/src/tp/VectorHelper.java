@@ -127,6 +127,8 @@ public void formule ()
 		for (int i=0;i<taille;i++)
 		{
 			a=(val.get(i)*2)+1;
+			
+			
 			val.set(i, a);
 			
 			
